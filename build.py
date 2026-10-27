@@ -14,6 +14,10 @@ DESCRIPTIONS = {
     "google-trends-api": "TRIGGER when the user needs Google Trends data: trending/rising keywords, comparing search terms, interest over time, regional interest, \"что сейчас в трендах\". Queries SerpApi google_trends (needs SERPAPI_KEY, free 250/mo). Source: Varnan-Tech/google-trends-api-skills (MIT).",
     "seo-keyword-research": "TRIGGER before writing an SEO blog post, content plan or article optimization, or when asked for keyword research. Finds breakout keywords via Google Trends, picks primary/long-tail keys, builds an SEO outline. Source: Varnan-Tech/google-trends-api-skills (MIT).",
     "svg-animations": "TRIGGER when adding motion to an SVG: spinners, loaders, animated logos/icons, line draw-in, shape morphing, motion paths, SMIL or CSS keyframes. Not for static icon drawing. Covers gotchas, timing, easing, a11y. Source: EpicenterHQ/epicenter (MIT).",
+    "remotion-best-practices": "TRIGGER when the user wants to make, edit, preview or render a video in code: promo, explainer, intro, animated titles, captions, map animation, data video, Remotion/React video, MP4 export. Free local rendering. Source: remotion-dev/skills (official).",
+    "ffmpeg": "TRIGGER for any video/audio file operation: convert format, GIF to MP4, resize, crop, trim, compress, extract audio, change speed, concatenate, add subtitles or prepare assets for Remotion. Uses local ffmpeg, free. Source: digitalsamba/claude-code-video-toolkit (MIT).",
+    "moviepy": "TRIGGER when composing video in Python: text overlays, captions, lower thirds, labels on AI-generated clips, joining clips, short ad spots in a single build.py without Remotion. Free local moviepy 2.x. Source: digitalsamba/claude-code-video-toolkit (MIT).",
+    "playwright-recording": "TRIGGER when the user wants a screen recording of a website or web app: product demo, UI walkthrough, browser flow capture, footage for a video. Records with Playwright locally, free. Source: digitalsamba/claude-code-video-toolkit (MIT).",
 }
 
 def split_fm(text):

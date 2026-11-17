@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, interpolate, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame} from 'remotion';
 
 const FPS = 30;
 const SCENE = 60 * FPS;
@@ -219,6 +219,7 @@ const FadeLayer: React.FC<{index: number; children: React.ReactNode}> = ({index,
 
 export const BabySensory: React.FC = () => (
   <AbsoluteFill style={{backgroundColor: WHITE}}>
+    <Audio src={staticFile('calm-music.mp3')} volume={0.8} />
     {SCENES.map((Scene, i) => {
       // incoming scene starts FADE frames early and fades in over the previous one
       const from = i === 0 ? 0 : i * SCENE - FADE;
